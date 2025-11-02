@@ -26,3 +26,14 @@ Este comando va a permitir instalar y ejecutar scrips necesarios para la instala
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
+Este comando nos instara chocolatey y al mismo tiempo nos permite insta.ar node js
+
+4. Ingresamos el siguiente comando para poder instalar node js
+```
+choco install nodejs-lts
+```
+ 5. Como comando adicionar es necesario instalar el siguiente comando
+```
+npm init -y
+```
+Este comando nos permite realizar acciones como ejecución de scripts
