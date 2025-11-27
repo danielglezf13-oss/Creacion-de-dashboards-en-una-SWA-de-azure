@@ -1,6 +1,6 @@
 # Guía de Instalación y Despliegue: Dashboard LAW
 
-Esta guía detalla el proceso completo para instalar las herramientas necesarias, configurar un proyecto web con un backend de API, y desplegarlo en Azure Static Web Apps. La API se configurará para consultar de forma segura un Log Analytics Workspace.
+Desarrollo de un dashboard web personalizado utilizando Azure Static Web Apps (SWA). Visualiza datos extraídos de un Log Analytics Workspace (LAW) mediante la API y gráficos en Canvas.
 
 ---
 
